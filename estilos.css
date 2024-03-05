@@ -16,19 +16,23 @@ html
 {
     background-color: #f5f2eb;
 }
-img
-{
-    width: 598px;
-    height: 600px;
-    position: absolute;
-left: 500px;
-top: 125px;}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.figma{
+    display: flex;
+    align-items: center;
+}
 
 header{
     display: flex;
     justify-content: right;
-    width: 1440px;
-    height: 72px;
 }
 .bi-arrow-up-right
 {position: relative;
@@ -67,12 +71,14 @@ font-weight: 600;
 {
     height: 648px;
     width: 400px;
-    border: solid 1px;
+    border: solid ;
+    border: none;
     border-radius: 30px;
     padding: 10px 10px 10px 10px ;
-margin-left: 100px;
-margin-bottom: 600px;
 background-color: white;
+display: block;
+
+
 }
 div h1
 {
@@ -124,6 +130,8 @@ background-color: #aed6b3;
     margin-bottom: 10px;
     margin-left: 60px;
     background-color: white;
+    display: flex;
+    gap: 16px;
 }
 
 .caja .ultimo
@@ -147,12 +155,10 @@ font-weight: 400;
 .caja section .controls{
     width: 300px;
     height: 35px;
-margin-bottom: 10px;
+    margin-bottom: 10px;
 border: solid 1px;
 border-radius: 8px;
-display: flex;
-margin-right:  10px;
-padding-left: 35px;
+
 }
 
 .caja .ultimo a
@@ -187,7 +193,4 @@ bottom: 38px;
 }
 
 @media screen and (max-width: 1024px){
-    .img{display: none;} }
-
-    @media screen and (max-width: 1024px){
-        .caja{margin-left: 400px;} }
+    .figma{display: none;} }
